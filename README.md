@@ -43,4 +43,28 @@ graph TB
     T -.-> E
     style A circle, 50px;
     style K circle, 50px;
-    ```
+ ```
+**Timeline**
+```mermaid
+gantt
+    title Glassdoor reviews Data Science Project Timeline
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+    section Define question
+        Define research question and objectives: 2023-06-01, 2023-06-03
+    section Collect and clean data
+        Research available web scraping methods: 2023-06-03, 2023-06-04
+        Collect Glassdoor reviews data: 2023-06-04, 2023-06-05
+        Clean and preprocess data: 2023-06-05, 2023-06-08
+    section EDA and sentiment
+        Perform descriptive statistics and visualizations: 2023-06-08, 2023-06-11
+        Perform sentiment analysis on reviews: 2023-06-11, 2023-06-18
+    section Extract features
+        Apply text mining techniques: 2023-06-18, 2023-06-22
+        Extract features from reviews: 2023-06-22, 2023-06-25
+    section Choose technique
+        Choose machine learning technique: 2023-06-26
+        Find relationships or predictions from reviews: 2023-06-27, 2023-06-30
+    section Communicate findings
+        Create summary of results: 2023-07-01, 2023-07-02
+```
